@@ -14,7 +14,7 @@ Chipset | Mediatek Dimensity 8200 (4 nm)
 GPU     | Mali-G610 MC6
 Memory  | 16/18 GB RAM
 Shipped Android Version | Android 13
-Storage | 512 (UFS 3.1)
+Storage | 512 GB (UFS 3.1)
 Battery | Non-removable Li-Po 23000mAh mAh battery
 Display | 1080 x 2460 pixels, 6.79 inches, IPS LCD
 
