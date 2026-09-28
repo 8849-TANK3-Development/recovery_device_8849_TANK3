@@ -87,9 +87,6 @@ BOARD_VNDK_VERSION := current
 # Vendor_boot recovery ramdisk
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 
-# Boot recovery ramdisk
-#BOARD_USES_RECOVERY_AS_BOOT := true
-
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
@@ -99,6 +96,16 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TW_EXTRA_LANGUAGES := true
 TW_THEME := portrait_hdpi
 TW_INCLUDE_FASTBOOTD := true
+TW_FRAMERATE := 60
+TW_Y_OFFSET := 120
+TW_H_OFFSET := -120
+TW_DEVICE_VERSION := 8849_TANK3
+TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone47/temp"
+
+# Tool
+TW_INCLUDE_RESETPROP := true
+TW_INCLUDE_LIBRESETPROP := true
 
 # Debug
 TARGET_USES_LOGD := true

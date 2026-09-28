@@ -14,7 +14,11 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/8849/TANK3
+
+# API
 PRODUCT_SHIPPING_API_LEVEL := 31
+PRODUCT_TARGET_VNDK_VERSION := 31
 
 # A/B
 AB_OTA_UPDATER := true
