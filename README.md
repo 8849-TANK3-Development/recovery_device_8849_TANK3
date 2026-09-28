@@ -20,3 +20,15 @@ Display | 1080 x 2460 pixels, 6.79 inches, IPS LCD
 
 ## Device picture
 ![8849 TANK 3](https://cdn.shopify.com/s/files/1/0933/0340/6881/files/8849-tank3-pro-projector-phone02-1.png)
+
+## Features
+
+Works:
+
+- [X] ADB
+- [X] Display
+- [X] Fasbootd
+- [X] Flashing
+- [X] MTP
+- [X] Sideload
+- [X] USB OTG
